@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container h1 {
+    color: white;
+}
+
+.btn {
+    background-color: transparent;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner .banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .title {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.gold-text {
+    color: gold;
+}
+
+.banner .btn {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.heart-content .heart-img .btn a {
+    border-color: red;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heart-content {
+    position: relative;
+}
+
+.heart-content .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+}
