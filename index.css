@@ -1,5 +1,5 @@
-*{
-    padding: 9;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     transition: all ease 0.5s;
@@ -9,10 +9,9 @@
     text-decoration: none;
     color: white;
     padding: 10px 30px;
-    background-color: gray;
-    font-weight: bold;
     border: 1px solid white;
     border-radius: 8px;
+    background-color: gray;
 }
 
 .btn:hover {
@@ -37,28 +36,37 @@
 
 .banner .content .title {
     color: white;
-    margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .gold-text {
     color: gold;
 }
 
+.main {
+    padding: 50px 0;
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
 .card {
-    width: 45%;
+    width: 40%;
     height: 350px;
     position: relative;
+    box-shadow: 10px 15px 20px;
     margin-bottom: 35px;
-    box-shadow: 10px 15px 20px black;
 }
 
 .type {
     position: absolute;
     top: 0;
     left: 10px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     background-color: turquoise;
 }
 
@@ -87,17 +95,9 @@
 }
 
 .des {
+    margin: 0;
     padding: 20px 5px;
     font-weight: bold;
-    margin: 0;
-}
-
-.main {
-    padding: 50px 0;
-}
-
-.section-title {
-    margin-bottom: 30px;
 }
 
 .footer {
@@ -110,8 +110,8 @@
 }
 
 .footer .fab {
-    font-size: 40px;
     color: white;
+    font-size: 40px;
     margin-left: 20px;
 }
 
